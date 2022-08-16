@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300&display=swap&_v=20220816154406" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link rel="stylesheet" href="css/home.min.css?_v=20220816154406">
+    <link rel="stylesheet" href="css/pop-up.min.css?_v=20220816154406">
+    <title>BarberShop</title>
+</head>
+
+<body>
+
+<!-- POP-UP -->
+
+<div class="container">
+    <div class="pop__up" id="pop__up">
+        <div class="pop__up-container">
+            <div class="pop__up-body" id="pop__up-body">
+                <p class="pop__up-body-title">Оставить заявку.</p>
+                <p class="pop__up-body-subtitle">Заполните форму ниже и мы перезвоним Вам в течечнии 10 минут.</p>
+                <form action="#">
+                    <input type="text" placeholder="Имя.">
+                    <input type="text" placeholder="Телефон.">
+                    <button>оставить заявку</button>
+                </form>
+                <div class="pop__up-close" id="pop__up-close">&#10006</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar__content">
+            <a href="index.html" class="navbar__logo"><img class="navbar__logo-img" src="img/logo-white.svg" alt=""></a>
+            <div class="navbar__menu menu">
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <div class="navbar__menu-body">
+                    <ul class="menu__list">
+                        <li><a data-goto=".about" href="" class="menu__link">Кто мы?</a></li>
+                        <li><a data-goto=".masters" href="" class="menu__link">Наши мастера</a></li>
+                        <li><a data-goto=".price" href="" class="menu__link">Наши цены</a></li>
+                        <li><a data-goto=".footer" href="" class="menu__link">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- HEADER -->
+
+<header class="header">
+    <div class="container">
+        <div class="header__content">
+            <h1 class="header__title">Измени стрижку сейчас.</h1>
+            <div class="header__subtitle">Мужской салон с новым взглядом на стиль</div>
+            <a href="#" class="btn open__pop-up">записаться онлайн</a>
+        </div>
+
+        <div class="header__scroll">
+            <a href="#aboutUS"><img src="img/scroll-down.svg" alt="scroll"></a>
+        </div>
+    </div>
+</header>
+
+<!-- ABOUT US -->
+
+<section class="about" id="aboutUS">
+    <div class="container">
+        <div class="about__content">
+            <div class="about__title">Кто мы?</div>
+            <div class="about__subtitle">Мы - это современная мужская парикмахерская с новым взгялдом на мужской стиль. Это место где твой образ опережает время и убирает рамки привычного для тебя восприятия. Мы сочетаем класические основы барберинга с современной подачей.</div>
+            <div class="about__title">Когда был образован NOW?</div>
+            <div class="about__subtitle">NOW был образован в 2017 году мастерами и представляет собой воплощение взядов, наработок и опыта в мужских стрижках и образах.</div>
+        </div>
+    </div>
+</section>
+
+<!-- OUR-MASTERS -->
+
+<section class="masters">
+    <div class="container">
+        <div class="masters__title">Наши мастера.</div>
+        <div class="masters__subtitle">Люди, безгранично преданные своему делу, постоянно созерцающие новые тенденции в индустрии, совершенствуя своё мастерство.</div>
+    </div>
+    <div class="masters__grid">
+        <div class="master__block personal-1">
+            <div class="master__block-content">
+                <div class="masters__block-title"> Фамилия Имя</div>
+                <div class="masters__block-subtitle">Барбер - человек с безграничной фантазией. В работе использую личную технику, смешиваю старые школы с новыми, добавляю техники известныъ барберов. Все зависит от ситуации и результата, к кторому стремлюсь.</div>
+                <a href="#" class="btn open__pop-up masters__btn">записаться к мастеру</a>
+            </div>
+        </div>
+
+        <div class="master__block personal-2">
+            <div class="master__block-content">
+                <div class="masters__block-title"> Фамилия Имя</div>
+                <div class="masters__block-subtitle">Барбер - человек с безграничной фантазией. В работе использую личную технику, смешиваю старые школы с новыми, добавляю техники известныъ барберов. Все зависит от ситуации и результата, к кторому стремлюсь.</div>
+                <a href="#" class="btn open__pop-up masters__btn">записаться к мастеру</a>
+            </div>
+        </div>
+
+        <div class="master__block personal-3">
+            <div class="master__block-content">
+                <div class="masters__block-title"> Фамилия Имя</div>
+                <div class="masters__block-subtitle">Барбер - человек с безграничной фантазией. В работе использую личную технику, смешиваю старые школы с новыми, добавляю техники известныъ барберов. Все зависит от ситуации и результата, к кторому стремлюсь.</div>
+                <a href="#" class="btn open__pop-up masters__btn">записаться к мастеру</a>
+            </div>
+        </div>
+
+        <div class="master__block personal-4">
+            <div class="master__block-content">
+                <div class="masters__block-title"> Фамилия Имя</div>
+                <div class="masters__block-subtitle">Барбер - человек с безграничной фантазией. В работе использую личную технику, смешиваю старые школы с новыми, добавляю техники известныъ барберов. Все зависит от ситуации и результата, к кторому стремлюсь.</div>
+                <a href="#" class="btn open__pop-up masters__btn">записаться к мастеру</a>
+            </div>
+        </div>
+
+        <div class="master__block personal-5">
+            <div class="master__block-content">
+                <div class="masters__block-title"> Фамилия Имя</div>
+                <div class="masters__block-subtitle">Барбер - человек с безграничной фантазией. В работе использую личную технику, смешиваю старые школы с новыми, добавляю техники известныъ барберов. Все зависит от ситуации и результата, к кторому стремлюсь.</div>
+                <a href="#" class="btn open__pop-up masters__btn">записаться к мастеру</a>
+            </div>
+        </div>
+
+        <div class="master__block personal-6">
+            <div class="master__block-content">
+                <div class="master__block-icon">
+                    <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M85.4167 54.1667C77.3667 54.1667 70.8333 60.6959 70.8333 68.7501C70.8333 76.8042 77.3667 83.3334 85.4167 83.3334C93.4667 83.3334 100 76.8042 100 68.7501C100 60.6959 93.4667 54.1667 85.4167 54.1667ZM91.6667 70.8334H87.5V75.0001H83.3333V70.8334H79.1667V66.6667H83.3333V62.5001H87.5V66.6667H91.6667V70.8334ZM37.4958 46.2501C37.4958 53.3001 34.3042 58.3334 32.4708 62.5001H26.65C27.5958 58.3334 34.7917 48.2709 30.9042 41.7417C28.6125 37.8959 21.4375 37.8917 19.1583 41.6792C17.0458 45.1834 18.1583 51.7501 22.125 59.2417C24.2833 63.3167 23.6833 66.4667 22.8 68.3959C21.1083 72.1001 17.3708 73.8834 13.15 75.1126C4.775 77.5626 5.54583 75.3417 5.54583 83.3334H0.00833333L0 80.7584C0 75.5001 0.4125 72.4709 6.625 71.0376C13.7875 69.3834 20.4542 67.9334 17.2292 61.8334C7.39167 43.2626 14.6167 33.3334 25.0042 33.3334C32.0333 33.3334 37.4958 37.8751 37.4958 46.2501V46.2501ZM61.2083 52.0626C63.7375 56.8376 63.0708 60.4626 62.0667 62.6584C59.3167 68.6792 51.7667 70.4209 43.775 72.2626C38.5583 73.4709 38.8917 74.7126 38.8917 83.3334H33.3458L33.3333 79.8959C33.3333 72.8917 33.8833 68.8459 42.1625 66.9334C51.7167 64.7251 60.6083 62.7917 56.3042 54.6584C43.1917 29.9042 52.825 16.6667 66.6708 16.6667C79.8542 16.6667 88.9083 28.6626 79.3417 50.0001H73.1625C77.9917 40.3126 79.1125 31.9751 76.1125 26.9459C72.3542 20.6251 61.0417 20.6584 57.3125 26.8542C54.1125 32.1584 55.5375 41.3459 61.2083 52.0626V52.0626Z" fill="white"/>
+                    </svg>                        
+                </div>
+                <div class="masters__block-title">Секретный мастер</div>
+                <div class="masters__block-subtitle">Хочешь стать частью нашей крепкой команды мастеров. Напиши нам и мы встретимся и обговорим детали лично.</div>
+                <a href="#" class="btn open__pop-up masters__btn">записаться к мастеру</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PRICE -->
+
+<section class="price">
+    <div class="container">
+        <div class="price__title">Наши цены.</div>
+        <div class="price__subtitle">Мы создаем простые и стильные мужские стрижки, следуемактуальным трендам, уважая желания клиента.</div>
+    
+        <div class="price__block">
+            <div class="price__block-text">
+                <div class="price__time">30-60 мин.</div>
+                <div class="price__name">Мужская стрижка.</div>
+            </div>
+            <div class="price__block-price">15-25 $</div>
+        </div>
+    
+        <div class="price__block">
+            <div class="price__block-text">
+                <div class="price__time">30-60 мин.</div>
+                <div class="price__name">Под машинку.</div>
+            </div>
+            <div class="price__block-price">15-25 $</div>
+        </div>
+    
+        <div class="price__block">
+            <div class="price__block-text">
+                <div class="price__time">30-60 мин.</div>
+                <div class="price__name">Стрижка бороды.</div>
+            </div>
+            <div class="price__block-price">15-25 $</div>
+        </div>
+    
+        <div class="price__block">
+            <div class="price__block-text">
+                <div class="price__time">30-60 мин.</div>
+                <div class="price__name">Детская стрижка.</div>
+            </div>
+            <div class="price__block-price">15-25 $</div>
+        </div>
+    
+        <div class="price__block">
+            <div class="price__block-text">
+                <div class="price__time">30-60 мин.</div>
+                <div class="price__name">Окантовка.</div>
+            </div>
+            <div class="price__block-price">15-25 $</div>
+        </div>
+    
+        <div class="price__block">
+            <div class="price__block-text">
+                <div class="price__time">30-60 мин.</div>
+                <div class="price__name">Тонировка.</div>
+            </div>
+            <div class="price__block-price">15-25 $</div>
+        </div>
+    
+        <div class="price__block">
+            <div class="price__block-text">
+                <div class="price__time">30-60 мин.</div>
+                <div class="price__name">Укладка.</div>
+            </div>
+            <div class="price__block-price">15-25 $</div>
+        </div>
+        <div class="price__btn">
+            <a href="#" class="btn open__pop-up">записаться онлайн</a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+
+            <div class="footer__social">
+                <div class="footer__social-logo">
+                    <svg width="308" height="72" viewBox="0 0 308 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M66.33 33.61L49.95 0.849999L33.57 33.61L23.85 4H0L28.8 71.05L49.95 39.73L71.1 71.05L99.9 4H76.05L66.33 33.61ZM142.412 67H174.182V51.25H142.412V67ZM142.412 19.75H174.182V4H142.412V19.75ZM142.412 42.25H172.382V26.95H142.412V42.25ZM128.732 4V67H147.632V4H128.732ZM222.041 67H253.811V51.25H222.041V67ZM222.041 19.75H253.811V4H222.041V19.75ZM222.041 42.25H252.011V26.95H222.041V42.25ZM208.361 4V67H227.261V4H208.361ZM286.189 59.35C286.189 62.17 287.179 64.6 289.159 66.64C291.139 68.68 293.689 69.7 296.809 69.7C299.989 69.7 302.539 68.68 304.459 66.64C306.439 64.6 307.429 62.17 307.429 59.35C307.429 56.53 306.439 54.1 304.459 52.06C302.539 50.02 299.989 49 296.809 49C293.689 49 291.139 50.02 289.159 52.06C287.179 54.1 286.189 56.53 286.189 59.35ZM286.189 26.05C286.189 28.87 287.179 31.3 289.159 33.34C291.139 35.38 293.689 36.4 296.809 36.4C299.989 36.4 302.539 35.38 304.459 33.34C306.439 31.3 307.429 28.87 307.429 26.05C307.429 23.23 306.439 20.8 304.459 18.76C302.539 16.72 299.989 15.7 296.809 15.7C293.689 15.7 291.139 16.72 289.159 18.76C287.179 20.8 286.189 23.23 286.189 26.05Z" fill="black"/>
+                    </svg>
+                </div>
+                <div class="footer__social-links">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25 0C11.1937 0 0 11.1937 0 25C0 38.8062 11.1937 50 25 50C38.8062 50 50 38.8062 50 25C50 11.1937 38.8062 0 25 0ZM31.25 16.6667H28.4375C27.3167 16.6667 27.0833 17.1271 27.0833 18.2875V20.8333H31.25L30.8146 25H27.0833V39.5833H20.8333V25H16.6667V20.8333H20.8333V16.025C20.8333 12.3396 22.7729 10.4167 27.1437 10.4167H31.25V16.6667Z" fill="white"/>
+                    </svg>
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M30.8937 13.1292C29.3562 13.0583 28.8937 13.0458 25 13.0458C21.1062 13.0458 20.6458 13.0604 19.1083 13.1292C15.1521 13.3104 13.3104 15.1833 13.1292 19.1083C13.0604 20.6458 13.0437 21.1062 13.0437 25C13.0437 28.8937 13.0604 29.3542 13.1292 30.8937C13.3104 34.8083 15.1437 36.6917 19.1083 36.8729C20.6437 36.9417 21.1062 36.9583 25 36.9583C28.8958 36.9583 29.3562 36.9437 30.8937 36.8729C34.85 36.6937 36.6896 34.8146 36.8729 30.8937C36.9417 29.3562 36.9562 28.8937 36.9562 25C36.9562 21.1062 36.9417 20.6458 36.8729 19.1083C36.6896 15.1854 34.8458 13.3104 30.8937 13.1292V13.1292ZM25 32.4896C20.8646 32.4896 17.5104 29.1375 17.5104 25C17.5104 20.8646 20.8646 17.5125 25 17.5125C29.1354 17.5125 32.4896 20.8646 32.4896 25C32.4896 29.1354 29.1354 32.4896 25 32.4896ZM32.7854 18.9667C31.8187 18.9667 31.0354 18.1833 31.0354 17.2167C31.0354 16.25 31.8187 15.4667 32.7854 15.4667C33.7521 15.4667 34.5354 16.25 34.5354 17.2167C34.5354 18.1812 33.7521 18.9667 32.7854 18.9667V18.9667ZM29.8604 25C29.8604 27.6854 27.6833 29.8604 25 29.8604C22.3167 29.8604 20.1396 27.6854 20.1396 25C20.1396 22.3146 22.3167 20.1396 25 20.1396C27.6833 20.1396 29.8604 22.3146 29.8604 25ZM25 0C11.1937 0 0 11.1937 0 25C0 38.8062 11.1937 50 25 50C38.8062 50 50 38.8062 50 25C50 11.1937 38.8062 0 25 0ZM39.4958 31.0125C39.2562 36.3146 36.3042 39.2521 31.0146 39.4958C29.4583 39.5667 28.9604 39.5833 25 39.5833C21.0396 39.5833 20.5437 39.5667 18.9875 39.4958C13.6875 39.2521 10.7479 36.3104 10.5042 31.0125C10.4333 29.4583 10.4167 28.9604 10.4167 25C10.4167 21.0396 10.4333 20.5437 10.5042 18.9875C10.7479 13.6875 13.6896 10.7479 18.9875 10.5063C20.5437 10.4333 21.0396 10.4167 25 10.4167C28.9604 10.4167 29.4583 10.4333 31.0146 10.5063C36.3167 10.75 39.2583 13.6979 39.4958 18.9875C39.5667 20.5437 39.5833 21.0396 39.5833 25C39.5833 28.9604 39.5667 29.4583 39.4958 31.0125Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="footer__address">
+                <div class="footer__address-title">Филлиал в Минске.</div>
+                <div class="footer__address-text">ул. Жесткова, 11, г. Витебск
+                    9:00 - 21:00, без выходных
+                    +37 533 621 88 63
+                    wee.barbershop@gmail.com</div>
+            </div>
+
+            <div class="footer__address">
+                <div class="footer__address-title">Филлиал в Минске.</div>
+                <div class="footer__address-text">ул. Жесткова, 11, г. Витебск
+                    9:00 - 21:00, без выходных
+                    +37 533 621 88 63
+                    wee.barbershop@gmail.com</div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+    <script src="js/app.min.js?_v=20220816154406"></script>
+</body>
+</html>
